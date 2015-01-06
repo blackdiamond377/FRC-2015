@@ -11,6 +11,17 @@ public class RobotMap {
     // public static int leftMotor = 1;
     // public static int rightMotor = 2;
     
+    // PWM Out
+    public static int driveMotor1 = 1;
+    public static int steerMotor1 = 2;
+
+    // Digital I/o
+    public static int steerEncoder1A = 1;
+    public static int steerEncoder1B = 2;
+
+    // Analog
+    public static int steerEncoder1Analog = 1;
+    
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:
     // public static int rangefinderPort = 1;
